@@ -1,3 +1,13 @@
+⚠️ ⚠️ ⚠️ ⚠️ 
+
+This is a fork of [RIAEvangelist/node-ipc]() because RIAEvangelist [has exhibited malicious behavior](https://nvd.nist.gov/vuln/detail/CVE-2022-23812) with a supply chain attack. This fork reverted all changes post 9.2.1 which contained malicious supply-chain attacks. 
+
+Under no circumstances should you rebase from the upstream repository. If there are other CVE patches that need to be  applied then they can be cherry-picked or applied directly to this repository. This project is published on npmjs as [@invisionapp/node-ipc](https://www.npmjs.com/package/@invisionapp/node-ipc).
+
+⚠️ ⚠️ ⚠️ ⚠️ 
+
+
+
 node-ipc
 ================
 *a nodejs module for local and remote Inter Process Communication* with full support for Linux, Mac and Windows. It also supports all forms of socket communication from low level unix and windows sockets to UDP and secure TLS and TCP sockets.
