@@ -18,7 +18,7 @@ jobs:
           tag_message: "v%s"
           create_tag: "true"
           # commit messages have to follow this format
-          # e.g. "Release (1.2.3)" will npm publish v1.2.3
+          # e.g. "Release 1.2.3" will npm publish v1.2.3
           commit_pattern: "^Release (\\S+)"
           workspace: "."
           publish_command: "yarn"
