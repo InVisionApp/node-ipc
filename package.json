@@ -1,6 +1,6 @@
 {
   "name": "@invisionapp/node-ipc",
-  "version": "9.2.0",
+  "version": "9.2.2",
   "description": "A nodejs module for local and remote Inter Process Communication (IPC), Neural Networking, and able to facilitate machine learning.",
   "main": "node-ipc.js",
   "directories": {
